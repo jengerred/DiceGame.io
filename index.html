@@ -8,7 +8,26 @@
         <title>Dice Game</title>
     </head>
     <body>
+<div>
+    <div class="container" id="container">
         
+    <h2 class="h2" id="h2">Game Rules:</h2>
+    
+    
+    <h3 class="h3" id="h3">- click "New Game" to begin.</h3>
+    <h3 lass="h3" id="h3">- 2 players will take turns to roll the dice</h3>
+    <h3 lass="h3" id="h3">- The player must choose if they would like to hold their score or risk rolling a one, and roll again.</h3>
+    <h3 lass="h3" id="h3">- if a player rolls 1, no points will be added and it will be the next players turn.</h3>
+        <br>
+    <h3 lass="h3" id="h3">Win: First player to score 100 total points </h3>
+
+<button class="button-Play" onclick="
+    h2.style.visibility = 'hidden'
+    //h3.style.visibility = 'hidden'
+    container.style.visibility = 'hidden'
+    //.button-Play.style.visibility = 'hidden'
+ ">Play</button>
+</div>
 
         <div class="wrapper clearfix">
             <div class="player-0-panel active">
@@ -21,7 +40,7 @@
                 color: blue;">Sorry You Rolled a 1</div>-->
                 <div class="player-current-box">
                     <div class="player-current-label" >Current</div>
-                    <div class="player-current-score" id="current-0">11</div>
+                    <div class="player-current-score" id="current-0">0</div>
                 </div>
                 
             </div>
@@ -35,7 +54,7 @@
                 color: blue;">Sorry You Rolled a 1</div>-->
                 <div class="player-current-box">
                     <div class="player-current-label">Current</div>
-                    <div class="player-current-score" id="current-1">11</div>
+                    <div class="player-current-score" id="current-1">0</div>
                 </div>
             </div>
             

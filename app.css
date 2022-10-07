@@ -124,6 +124,8 @@ i {
 
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;
+   
+
 }
 
 .btn-hold { top: 467px;}
@@ -135,6 +137,7 @@ i {
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 20px black;
+    
 }
 
 .winner { background-color: #f7f7f7; }
@@ -178,6 +181,50 @@ i {
     clear: both;
 }
 
+.container{
+    z-index: 5;
+    position: fixed;
+    width: 80%;
+    height: 75vh;
+    background:  white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    visibility: visible;
+    box-shadow: 0 20px 40px 0 black;
+}
+h2 {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    color: black;
+    visibility: visible;
+   
+}
+h3 {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    color: black;
+   
+}
+.button-Play {
+    z-index: 5;
+    position: fixed;
+    top: 550px;
+    font-size: 50px;
+   
+}
 /*.roll{
     animation: roll 0.5s infinite;
 }
