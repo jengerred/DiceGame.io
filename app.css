@@ -18,7 +18,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: lightblue;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 30px 60px 0px black;
     overflow: hidden;
 }
 
@@ -28,6 +28,7 @@ body {
     float: left;
     height: 600px;
     padding: 100px;
+    
 }
 
 .player-name {
@@ -40,6 +41,7 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
     position: relative;
+    text-transform: uppercase
 }
 
 .player-score {
@@ -224,6 +226,12 @@ h3 {
     top: 550px;
     font-size: 50px;
    
+}
+.yourName {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 35px;
+  
 }
 /*.roll{
     animation: roll 0.5s infinite;

@@ -49,7 +49,6 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
               //  h2.style.display = 'none';
               
              // }, 2000); 
-            
             nextPlayer()
         }
     }
@@ -79,6 +78,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         document.querySelector('.player-'+activePlayer+'-panel').classList.add('winner')
         document.querySelector('.player-'+activePlayer+'-panel').classList.remove('active')
     } else {
+        
         nextPlayer()
     }
 
@@ -103,6 +103,7 @@ function init() {
     document.getElementById('current-1').textContent = '0';
     
     // set out name
+    
     document.getElementById('name-0').textContent = 'Player 1';
     document.getElementById('name-1').textContent = 'Player 2';
     //start fresh, no winner, no active player
@@ -130,5 +131,6 @@ function nextPlayer() {
     // reset the dice before we move onto the next roll
     document.getElementById('dice-1').style.display = 'none';
     document.getElementById('dice-2').style.display = 'none';
+  
     console.log('Player score', document.getElementsByClassName('player-current-score'))
 }
