@@ -3,6 +3,7 @@
 This project I created while following instruction from an instructor with the MIT XPRO course. I added some elements of my own like the Game Rules card and I made the dice a little more 3d. I also added an aption to add player name. 
 ## How to Run:  
 Simply open the page, read the game rules and click play. You can enter your name(s) and begin playing. 
+
 Game Rules:
 - click "New Game" to begin.
 - 2 players will take turns to roll the dice
