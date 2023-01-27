@@ -8,7 +8,7 @@ Game Rules:
 - click "New Game" to begin.
 - 2 players will take turns to roll the dice
 - The player must choose if they would like to hold their score or risk rolling a one, and roll again.
-- if a player rolls 1, no points will be added and it will be the next players turn.
+- if a player rolls a 1, no points will be added and it will be the next players turn.
 
 Win: First player to score 100 total points
 
